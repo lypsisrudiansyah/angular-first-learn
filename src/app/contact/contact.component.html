@@ -1,0 +1,28 @@
+<form (ngSubmit)="onSubmit(theForm)" #theForm="ngForm">
+    <div class="form-group">
+      <label for="title">Title :</label>
+      <input type="text" ngModel name="title" class="form-control" id="title" placeholder="Enter Title">
+    </div>
+
+    <div class="form-group">
+      <label for="body">body :</label>
+      <input type="text" ngModel name="body" class="form-control" id="body" placeholder="Enter Body">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+<!-- <form (ngSubmit)="onSubmit(theForm)" #theForm="ngForm">
+  <div class="form-group">
+    <label for="username">Username :</label>
+    <input type="text" ngModel name="username" class="form-control" id="username" placeholder="Enter Username">
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password :</label>
+    <input type="password" ngModel name="password" class="form-control" id="password" placeholder="Enter Password">
+  </div>
+
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+ -->
